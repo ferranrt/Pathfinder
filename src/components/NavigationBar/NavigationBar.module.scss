@@ -1,0 +1,22 @@
+@import 'src/theme/Theme.scss';
+
+.root {
+  background-color: $PRIMARY;
+  .select {
+    min-width: 250px;
+    color: $WHITE;
+  }
+  button {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-color: $WHITE;
+    color: $WHITE;
+  }
+  .startButton {
+    background-color: $SUCCESS;
+  }
+  .selectedButton {
+    background-color: $WHITE;
+    color: $PRIMARY;
+  }
+}

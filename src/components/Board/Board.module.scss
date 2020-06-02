@@ -1,0 +1,8 @@
+@import 'src/theme/Theme.scss';
+.root {
+  height: calc(100% - 94px);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
